@@ -1,2 +1,2 @@
-# frontPage
-HTML CSS front page 
+# html and css project
+# frontpage

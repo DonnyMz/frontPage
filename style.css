@@ -1,0 +1,143 @@
+body {
+  background-color: #fefefe;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.section_a {
+  position: relative;
+}
+.navigation {
+  position: absolute;
+  top: 7%;
+  left: 0;
+  z-index: 1;
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation ul li {
+  border-left: 3px solid #09bfec;
+
+  padding: 0.5rem 0 0 0;
+  margin: 20px 0 0 -30px;
+  transition: 0.7s ease;
+}
+
+.navigation ul li h3 {
+  color: rgb(66, 66, 66);
+  margin-top: -10px;
+  padding-left: 10px;
+}
+
+.section_a h1 {
+  font-family: Gugi;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  font-size: 22px;
+  border-bottom: 6px solid #09bfec;
+  z-index: 1;
+}
+
+.main_page {
+  background-color: #fefefe;
+  position: relative;
+  display: block;
+}
+.IoT_half_left {
+  display: none;
+}
+.IoT_half_right {
+  display: none;
+}
+.img_entire img {
+  width: 99%;
+}
+
+.article_paragraph_1 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  margin-left: 30px;
+}
+.article_paragraph_1 a button {
+  background-color: #09bfec;
+  width: 90px;
+  height: 25px;
+  border: #09bfec;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .img_entire {
+    display: none;
+  }
+  .IoT_half_left {
+    display: block;
+  }
+  .IoT_half_right {
+    display: block;
+  }
+  .section_a h1 {
+    font-family: Gugi;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 22px;
+    border-bottom: 6px solid #09bfec;
+    z-index: 1;
+  }
+  .navigation {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+  }
+  .navigation ul {
+    list-style: none;
+  }
+  .navigation ul li {
+    background-color: #09bfec;
+    width: 0.5px;
+    border-radius: 5px;
+    border-bottom: 2px solid #fff;
+    padding: 0.5rem;
+    transition: 0.7s ease;
+  }
+
+  .navigation ul li:hover {
+    width: 100px;
+  }
+  .navigation ul li h3 {
+    color: #fff;
+    margin: 0 0 0 10px;
+  }
+
+  .main_page {
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .article {
+    width: 90%;
+  }
+  .article_paragraph_1 {
+    background-color: rgba(255, 255, 255, 0.61);
+    font-size: 22px;
+    height: 450px;
+    width: 400px;
+    margin: 20px 10px 0 10px;
+    padding: 1rem 10px 0 20px;
+    color: rgb(0, 0, 0);
+  }
+  .article h1 {
+    margin-left: 40%;
+  }
+  .article_paragraph_1 a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
